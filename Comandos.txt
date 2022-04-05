@@ -1,0 +1,8 @@
+//Crear paquete de inicio en los modulos
+go mod init <ruta del modulo>
+
+//Descargar paquetes especificos
+go get github.com/mariomac/analizador
+
+//Descargar las dependencias a nustro proyecto
+go mod vendor

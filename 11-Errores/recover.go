@@ -8,6 +8,7 @@ func funcion2() {
 }
 
 func funcion1() {
+	//Recover se utiliza para recuperarse de un panic que se haya lanzado
 	defer func() {
 		if p := recover(); p != nil {
 			fmt.Println("Recuperandose del pánico: ", p)
